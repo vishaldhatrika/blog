@@ -34,8 +34,15 @@ export default function Layout({ children }: LayoutProps) {
       <footer className="bg-muted border-t">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <p className="text-center text-muted-foreground">
-            © {new Date().getFullYear()} Canvas and Console. Vishal Dhatrika's
-            blog. All rights reserved.
+            Canvas and Console - Vishal Dhatrika's blog.
+          </p>
+          <p>
+            <Link
+              href="https://vishaldhatrika.me"
+              className="flex items-center text-xl font-bold text-foreground"
+            >
+              Visit my Portfolio - vishaldhatrika.me
+            </Link>
           </p>
         </div>
       </footer>
