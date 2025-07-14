@@ -36,10 +36,10 @@ export default function Layout({ children }: LayoutProps) {
           <p className="text-center text-muted-foreground">
             Canvas and Console - Vishal Dhatrika's blog.
           </p>
-          <p>
+          <p className="text-center text-muted-foreground">
             <Link
               href="https://vishaldhatrika.me"
-              className="flex items-center text-xl font-bold text-foreground"
+              className="flex items-center font-medium text-foreground"
             >
               Visit my Portfolio - vishaldhatrika.me
             </Link>
