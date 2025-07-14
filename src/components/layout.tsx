@@ -32,14 +32,14 @@ export default function Layout({ children }: LayoutProps) {
       </main>
 
       <footer className="bg-muted border-t">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <p className="text-center text-muted-foreground">
+        <div className="text-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <p className="text-center text-muted-foreground mb-3">
             Canvas and Console - Vishal Dhatrika's blog.
           </p>
 
           <Link
             href="https://vishaldhatrika.me"
-            className="flex text-center text-muted-foreground"
+            className="text-center text-foreground font-semibold"
           >
             Visit my Portfolio - vishaldhatrika.me
           </Link>
