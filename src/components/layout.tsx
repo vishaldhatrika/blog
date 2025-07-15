@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ReactNode } from "react";
 import { ModeToggle } from "@/components/mode-toggle";
+import Image from "next/image";
 
 interface LayoutProps {
   children: ReactNode;
@@ -17,6 +18,13 @@ export default function Layout({ children }: LayoutProps) {
                 href="/"
                 className="flex items-center text-xl font-bold text-foreground"
               >
+                <Image
+                  src={"/favicon.png"}
+                  alt={"logo"}
+                  width={60}
+                  height={60}
+                  className="rounded-full -mr-1"
+                />
                 Canvas and Console
               </Link>
             </div>
