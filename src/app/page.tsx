@@ -15,10 +15,10 @@ export default async function Home() {
   return (
     <div>
       <div className="max-w-2xl mx-auto text-center mb-12">
-        <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl mb-4">
+        {/* <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl mb-4">
           Canvas and Console
-        </h1>
-        <p className="text-lg text-muted-foreground">
+        </h1> */}
+        <p className="text-lg mt-12 text-muted-foreground">
           My blog at the intersection of art and tech
         </p>
       </div>
