@@ -4,6 +4,8 @@ import "./globals.css";
 import Layout from "@/components/layout";
 import { ThemeProvider } from "@/components/theme-provider";
 
+import TopLoader from "@/components/toploader";
+
 const inter = Inter({ subsets: ["latin"] });
 
 const siteUrl =
@@ -72,6 +74,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
+        <TopLoader />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
