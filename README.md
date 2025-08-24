@@ -1,4 +1,7 @@
-# Notion-Powered Next.js Blog Template
+# Notion-Powered Next.js Blog 
+
+
+Live at: https://blog-vd.vercel.app/
 
 A modern, fast, and customizable blog template powered by Notion as a CMS and Next.js. This template allows you to use Notion as your content management system while serving your blog with Next.js.
 
